@@ -64,4 +64,4 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para d
 
 👨‍💻 Autor
 Fabio Lapuink
-https://img.shields.io/badge/GitHub-lapuinkfabioPublic-blue
+https://avatars.githubusercontent.com/u/215677396?v=4
