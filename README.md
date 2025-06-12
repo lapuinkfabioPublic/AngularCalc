@@ -1,59 +1,67 @@
-# AngularProjeto4
+# Calculadora Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+[![Licença MIT](https://img.shields.io/badge/Licença-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## Development server
+Uma calculadora simples desenvolvida com Angular para demonstrar conceitos básicos de desenvolvimento web.
 
-To start a local development server, run:
+## 🚀 Funcionalidades
+
+- ➕ Operações matemáticas básicas:
+  - Adição (+)
+  - Subtração (-)
+  - Multiplicação (×)
+  - Divisão (÷)
+- 📱 Interface responsiva
+- 📜 Histórico de operações
+- 🧹 Limpar display (C)
+- ⏱️ Botão de igual (=) para calcular resultados
+
+## 🛠️ Tecnologias Utilizadas
+
+- <img src="https://angular.io/assets/images/logos/angular/angular.svg" width="16" height="16" alt="Angular Logo"> Angular 15+
+- <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="16" height="16" alt="TypeScript Logo"> TypeScript
+- <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="16" height="16" alt="HTML5 Logo"> HTML5
+- <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="16" height="16" alt="CSS3 Logo"> CSS3
+- <img src="https://rxjs.dev/assets/images/favicons/favicon.ico" width="16" height="16" alt="RxJS Logo"> RxJS (para gerenciamento de estado)
+
+## 📋 Pré-requisitos
+
+- <img src="https://nodejs.org/static/images/favicons/favicon.png" width="16" height="16" alt="Node.js Logo"> Node.js (versão 16 ou superior)
+- npm ou yarn
+- Angular CLI (opcional)
+
+## 🏁 Como Executar o Projeto
 
 ```bash
+# 1. Clone o repositório
+git clone https://github.com/lapuinkfabioPublic/AngularCalc.git
+
+# 2. Navegue até o diretório do projeto
+cd AngularCalc
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+# 5. Acesse no navegador
+http://localhost:4200/
 
-## Code scaffolding
+🤝 Como Contribuir
+Faça um fork do projeto
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Crie uma branch para sua feature (git checkout -b feature/nova-feature)
 
-```bash
-ng generate component component-name
-```
+Commit suas mudanças (git commit -m 'Adiciona nova feature')
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Push para a branch (git push origin feature/nova-feature)
 
-```bash
-ng generate --help
-```
+Abra um Pull Request
 
-## Building
+📄 Licença
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+👨‍💻 Autor
+Fabio Lapuink
+https://avatars.githubusercontent.com/u/215677396?v=4
